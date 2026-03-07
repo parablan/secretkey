@@ -38,7 +38,7 @@ body {
 
 #sub_titulo small {
   color: rgba(37, 127, 150, 0.8);
-  font-size: 14px;
+  font-size: 16x;
 }
 
 #hash {
@@ -82,12 +82,12 @@ h3 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4;
 }
 
 small {
-  font-size: 12px;
+  font-size: 14px;
   color: #333333;
 }
 
