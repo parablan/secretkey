@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  color: #333333;
+}
+
+#titulo {
+  background-color: rgba(37, 127, 150, 0.8);
+  /* Usar rgba para controlar opacidad */
+  width: 95%;
+  height: 10em;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 1px;
+}
+
+#sub_titulo {
+  width: 95%;
+  height: 5em;
+  margin: auto;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+}
+
+#titulo h2 {
+  padding: 10px 0 20px 0;
+  font-size: 50px;
+}
+
+#sub_titulo small {
+  color: rgba(37, 127, 150, 0.8);
+  padding: 0;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+#hash {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#hash p {
+  margin: 5px 0;
+}
+
+#clave {
+  background-color: rgba(235, 238, 238, 0.8);
+  text-align: center;
+  width: 95%;
+  height: 12em;
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 1px;
+}
+
+h3 {
+  padding: 20px;
+  font-size: 60px;
+  text-align: center;
+}
+
+small {
+  font-size: 12px;
+  color: #333333;
+}
+
+a {
+  background-color: rgba(37, 127, 150, 0.8);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+  color: #333333;
+}
+
+body {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 10px 0;
+}
+
+#titulo {
+  background-color: rgba(37, 127, 150, 0.8);
+  width: 95%;
+  height: 6em;
+  /* Menos altura en móvil */
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 1px;
+}
+
+#sub_titulo {
+  width: 95%;
+  height: auto;
+  padding: 10px 0;
+  margin: auto;
+  text-align: center;
+}
+
+#titulo h2 {
+  padding: 0;
+  margin: auto;
+  font-size: 28px;
+  /* Título más pequeño */
+}
+
+#sub_titulo small {
+  color: rgba(37, 127, 150, 0.8);
+  font-size: 14px;
+}
+
+#hash {
+  width: 95%;
+  height: auto;
+  /* Altura automática para que quepan los hashes */
+  margin: 10px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#hash p {
+  font-size: 13px;
+  /* Letra pequeña para hashes largos */
+  word-break: break-all;
+  /* Evita que el hash se salga de la pantalla */
+  margin: 5px 0;
+  width: 90%;
+}
+
+#clave {
+  background-color: rgba(235, 238, 238, 0.8);
+  text-align: center;
+  width: 95%;
+  height: 8em;
+  /* Menos altura */
+  margin: auto;
+  border-radius: 10px;
+  padding-top: 1px;
+}
+
+h3 {
+  padding: 10px;
+  margin: 0;
+  font-size: 32px;
+  /* Clave más pequeña */
+  text-align: center;
+  word-break: break-all;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+small {
+  font-size: 12px;
+  color: #333333;
+}
+
+a {
+  background-color: rgba(37, 127, 150, 0.8);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 10px;
+}
