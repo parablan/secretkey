@@ -12,8 +12,11 @@
   height: 10em;
   margin: auto;
   border-radius: 10px;
-  text-align: center;
-  padding-top: 1px;
+  display: flex;
+  justify-content: center;
+  /* centra horizontalmente */
+  align-items: center;
+  /* centra verticalmente */
 }
 
 #sub_titulo {
@@ -34,8 +37,11 @@
   color: rgba(37, 127, 150, 0.8);
   padding: 0;
   font-size: 15px;
-  text-align: center;
-  display: block;
+  display: flex;
+  justify-content: center;
+  /* centra horizontalmente */
+  align-items: center;
+  /* centra verticalmente */
 }
 
 #hash {
@@ -57,7 +63,12 @@
   height: 12em;
   margin: auto;
   border-radius: 10px;
-  padding-top: 1px;
+  display: flex;
+  justify-content: center;
+  /* centra horizontalmente */
+  align-items: center;
+  /* centra verticalmente */
+
 }
 
 h3 {

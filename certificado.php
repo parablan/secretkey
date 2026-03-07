@@ -81,7 +81,7 @@ $html = "
         <p><b>SHA256:</b> " . hash('sha256', $clave) . "</p>
     </div>
     <br>
-    <p style='text-align: justify; padding: 0 4%;'>Password generated under digital security standards, with high entropy and complexity. Its structure complies with <b>NIST</b> and <b>OWASP</b> guidelines to prevent unauthorized access. The system employs a <b>zero-knowledge</b> approach, ensuring that generated keys are never stored in any database or persistent storage. Keys exist only transiently in memory during the active session and are immediately discarded after use, thereby guaranteeing that no sensitive information is retained or accessible beyond the user's environment.</p>
+    <p style='text-align: justify; padding: 0 4%;'>Password generated under digital security standards, with high entropy and complexity. Its structure complies with <b>NIST</b> and <b>OWASP</b> guidelines to prevent unauthorized access. The system employs a <b>zero-knowledge</b> approach, ensuring that generated keys are never stored in any database or persistent storage.</p>
     <br>
     <div id='footer' name='footer' style='text-align: center;'>
         <small>© $year - parablan</small>

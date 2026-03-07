@@ -14,12 +14,11 @@ body {
 #titulo {
   background-color: rgba(37, 127, 150, 0.8);
   width: 95%;
-  height: 6em;
-  /* Menos altura en móvil */
+  padding: 2em 0;
+  /* Reemplazando height por padding para centrar verticalmente en mPDF */
   margin: auto;
   border-radius: 10px;
   text-align: center;
-  padding-top: 1px;
 }
 
 #sub_titulo {
@@ -32,7 +31,7 @@ body {
 
 #titulo h2 {
   padding: 0;
-  margin: auto;
+  margin: 0;
   font-size: 28px;
   /* Título más pequeño */
 }
@@ -48,6 +47,9 @@ body {
   /* Altura automática para que quepan los hashes */
   margin: 10px auto;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
@@ -64,15 +66,14 @@ body {
   background-color: rgba(235, 238, 238, 0.8);
   text-align: center;
   width: 95%;
-  height: 8em;
-  /* Menos altura */
+  padding: 3em 0;
+  /* Reemplazando height por padding para centrar verticalmente en mPDF */
   margin: auto;
   border-radius: 10px;
-  padding-top: 1px;
 }
 
 h3 {
-  padding: 10px;
+  padding: 0 10px;
   margin: 0;
   font-size: 32px;
   /* Clave más pequeña */
