@@ -103,3 +103,9 @@ a {
   text-decoration: none;
   margin-top: 10px;
 }
+
+#footer {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+}

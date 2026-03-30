@@ -86,10 +86,12 @@ $html = "
     <br>
     <p style='text-align: justify; padding: 0 4%;'>Password generated under digital security standards, with high entropy and complexity. Its structure complies with <b>NIST</b> and <b>OWASP</b> guidelines to prevent unauthorized access. The system employs a <b>zero-knowledge</b> approach, ensuring that generated keys are never stored in any database or persistent storage.</p>
     <br>
-    <div id='footer' name='footer' style='text-align: center;'>
-        <small>© $year - parablan</small>
-    </div>
-    <br>
+    <htmlpagefooter name='myFooter'>
+        <div id='footer' name='footer' style='text-align: center;'>
+            <small>© $year - parablan</small>
+        </div>
+    </htmlpagefooter>
+    <sethtmlpagefooter name='myFooter' value='on' />
 </body>
 </html>
 ";

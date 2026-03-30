@@ -86,3 +86,9 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+
+#footer {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+}
