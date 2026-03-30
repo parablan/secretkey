@@ -74,6 +74,9 @@ $html = "
     </div>
     <div id='clave' name='clave'>
         <h3>" . $clave . "</h3>
+        <div style='text-align: right; padding-right: 20px; line-height: 0;'>
+            <img src='icon-key.png' style='width: 40px;'>
+        </div>
     </div>
     <br>
     <div id='hash' name='hash'>
