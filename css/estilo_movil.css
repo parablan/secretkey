@@ -38,7 +38,7 @@ body {
 
 #sub_titulo small {
   color: rgba(37, 127, 150, 0.8);
-  font-size: 16x;
+  font-size: 14px;
 }
 
 #hash {
@@ -66,28 +66,29 @@ body {
   background-color: rgba(235, 238, 238, 0.8);
   text-align: center;
   width: 95%;
-  padding: 3em 0;
+  padding: 3em 0 0.5em 0;
   /* Reemplazando height por padding para centrar verticalmente en mPDF */
   margin: auto;
   border-radius: 10px;
+  position: relative;
 }
 
 h3 {
   padding: 0 10px;
   margin: 0;
-  font-size: 40px;
+  font-size: 32px;
   /* Clave más pequeña */
   text-align: center;
   word-break: break-all;
 }
 
 p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
 small {
-  font-size: 14px;
+  font-size: 12px;
   color: #333333;
 }
 
