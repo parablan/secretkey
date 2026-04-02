@@ -19,6 +19,28 @@
   /* centra verticalmente */
 }
 
+#div_principal {
+  width: 85%;
+  margin: auto;
+  border-color: #c0c0c0;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px 10px 30px 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#btn_generar {
+  background-color: rgba(37, 127, 150, 0.8);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 #sub_titulo {
   width: 95%;
   height: 5em;
