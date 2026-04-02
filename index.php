@@ -25,11 +25,11 @@ if (preg_match('/Mobile|Android|iPhone|iPad|iPod|BlackBerry|Opera Mini|IEMobile/
 }
 echo ("
 </head>
-<body style='width: 70%; margin: 0px auto 7px auto;'>
+<body style='width: 70%; margin: auto; background-color: #e2e2e2ff;'>
     <br>
     <br>
     <br>
-    <div style='width: 90%; margin: auto; border-radius: 10px;'>
+    <div id='div_principal' name='div_principal'>
         <div id='titulo' name='titulo' style='text-align: center;'>
             <h2>SECRET KEY</h2>
         </div>
@@ -38,6 +38,9 @@ echo ("
         <br>
         <center>
             <img src='qr parablan secretkey.png' alt='key' width='250' height='250'>
+            <br>
+            <br>
+            <button id='btn_generar' name='btn_generar' onclick='window.location.href=\"certificado.php\"'>Download</button>
         <br>
         <br>
         <br>
@@ -48,6 +51,8 @@ echo ("
         </center>
         <br>
     </div>
+    <br>
+    <br>
 </body>
 </html>
 ");
